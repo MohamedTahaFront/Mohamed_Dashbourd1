@@ -1,0 +1,301 @@
+:root {
+    --blue-color: #0075ff ;
+    --blue-alt-color: #0d69d5 ;
+    --orange-color: #f59e0d ;
+    --green-color: #22c55e ;
+    --red-color: #f44336 ;
+    --grey-color: #888 ;
+}
+/* start box */ 
+.d-block {
+    display: block;
+}
+.d-inline-block {
+    display: inline-block;
+}
+.d-flex {
+    display:flex ;
+}
+.grow {
+    flex-grow: 1;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+.f-column {
+    flex-direction: column;
+}
+.rtl {
+    direction: rtl;
+}
+.space-between {
+    justify-content: space-between;
+}
+@media (max-width:767px) {
+    .block-mobile{
+        display: block;
+    }
+}
+.d-grid {
+    display: grid;
+}
+.align-center {
+    align-items: center;
+}
+.gap-20 {
+    gap: 20px;
+}
+/* end box */
+/* start color */
+.c-grey {
+    color: var(--grey-color);
+}
+.c-red {
+    color: var(--red-color);
+}
+.c-blue {
+    color: var(--blue-color);
+}
+.c-orange {
+    color: var(--orange-color);
+}
+.c-green {
+    color: var(--green-color);
+}
+.bg-blue {
+    background-color: var(--blue-color);
+}
+.bg-orange {
+    background-color: var(--orange-color);
+}
+.bg-green {
+    background-color: var(--green-color);
+}
+.bg-red {
+    background-color: var(--red-color);
+}
+.c-white {
+    color: white;
+}
+.bg-white {
+    background-color: white;
+}
+.bg-eee {
+    background-color: #eee;
+}
+
+.c-black {
+    color: black;
+}
+/* end color */
+/* start padding = margin */
+.p-10 {
+    padding: 10px;
+}
+.p-15 {
+    padding: 15px;
+}
+.p-20 {
+    padding: 20px;
+}
+.pt-5 {
+    padding-top: 5px;
+}
+.pt-10 {
+    padding-top: 10px;
+}
+.pt-15 {
+    padding-top: 15px;
+}
+.pb-15 {
+    padding-bottom: 15px;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+.ps-10 {
+    padding-left: 10px;
+}
+.ps-15 {
+    padding-left: 15px;
+}
+.ps-30 {
+    padding-left: 30px;
+}
+.ps-70 {
+    padding-left: 70px;
+}
+.m-0 {
+    margin: 0;
+}
+.m-auto{
+    margin: auto;
+}
+.m-15 {
+    margin: 15px;
+}
+.m-20 {
+    margin: 20px;
+}
+.mt-0 {
+    margin-top: 0;
+}
+.mt-5 {
+    margin-top: 5px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-15 {
+    margin-top: 15px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-25 {
+    margin-top: 25px;
+}
+.me-5 {
+    margin-right: 5px;
+}
+.me-10 {
+    margin-right: 10px;
+}
+.me-15 {
+    margin-right: 15px;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+.mb-6 {
+    margin-bottom: 6px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-13 {
+    margin-bottom: 13px;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.mb-16 {
+    margin-bottom: 16px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mb-25 {
+    margin-bottom: 25px;
+}
+.ms-15 {
+    margin-left: 15px;
+}
+.ms-20 {
+    margin-left: 20px;
+}
+.rad-6{
+    border-radius: 6px;
+}
+.rad-10 {
+    border-radius: 10px;
+}
+.rad-50 {
+    border-radius: 50%;
+}
+.border-none {
+    border: none;
+}
+.border-1 {
+    border: 1px solid #ccc;
+}
+.border-2 {
+    border: 1px solid #ddd;
+}
+/* end padding = margin */
+
+/* start font */
+.hidden {
+    overflow: hidden;
+}
+.txt-c {
+    text-align: center;
+}
+@media (max-width:767px) {
+    .txt-c-mobile{
+        text-align: center;
+    }
+}
+.txt-d-l {
+    text-decoration: line-through;
+}
+.fs-13 {
+    font-size: 13px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+.fs-16 {
+    font-size: 16px;
+}
+.fs-25 {
+    font-size: 25px;
+}
+.fs-40 {
+    font-size: 40px;
+}
+.fw-bold {
+    font-weight: bold;
+}
+/* end font */
+/* start position */
+.p-relative {
+    position: relative;
+}
+/* end position */
+/* start width + height */
+
+.w-100px {
+    width: 100px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+.w-fit {
+    width: fit-content;
+}
+/* end width + height */
+/* start media */
+@media (max-width:767px) {
+    .hide-mobile{
+        display: none;
+    }
+}
+/* end media */
+/* start button */
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+/* end button */
+/*start container */
+.between-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.center-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*end container */
+
