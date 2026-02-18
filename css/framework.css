@@ -278,7 +278,7 @@
     .hide-mobile{
         display: none;
     }
-    .w-80-mobile {
+    .w-80-mobile{
         width: 80% ;
     }
 }
@@ -301,6 +301,7 @@
     justify-content: center;
 }
 /*end container */
+
 
 
 
