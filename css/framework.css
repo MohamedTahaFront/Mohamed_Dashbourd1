@@ -232,9 +232,6 @@
 .fs-13 {
     font-size: 13px;
 }
-.fs-13-mobile {
-    font-size: 13px;
-}
 .fs-14 {
     font-size: 14px;
 }
@@ -281,6 +278,9 @@
     .hide-mobile{
         display: none;
     }
+    .w-80-mobile {
+        width: 80% ;
+    }
 }
 /* end media */
 /* start button */
@@ -301,5 +301,6 @@
     justify-content: center;
 }
 /*end container */
+
 
 
